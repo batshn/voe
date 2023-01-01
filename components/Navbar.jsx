@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className='w-full h-32 shadow-sm z-[100]'>
         <div className='bg-[#81b29a] justify-between items-center py-2 px-4' >
-            <p className='text-xs text-[#fff]'>We have soluton if you have a problem</p> 
+            <p className='text-xs text-[#fff]'>Танд асуудал байвал бидэнд шийдлийг нь даатга.</p> 
         </div>
         
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 pb-8'>

@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 html {
   scroll-behavior: smooth;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 
@@ -21,7 +21,19 @@ html {
   }
 
   h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl font-[Poppins]
+    @apply text-4xl sm:text-5xl md:text-6xl font-[Manrope]
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl font-[Manrope]
+  }
+
+  h3 {
+    @apply text-2xl sm:text-3xl font-[Manrope] text-[#F78E76] 
+  }
+
+  h4 {
+    @apply text-xl sm:text-2xl font-[Manrope]
   }
 
 
