@@ -6,7 +6,7 @@ const Intro = () => {
   return (
     <div className='w-full flex items-center'>
         <div className='w-screen  h-auto'>
-            <Image className='md:w-full' src={bgImg} />
+            <Image className='md:w-full from-to' src={bgImg} />
         </div>
     </div>
   )
