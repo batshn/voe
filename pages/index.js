@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar'
 import Intro from '../components/Intro'
 import News from '../components/News'
 import Service from '../components/Service'
+import VContent from '../components/VContent'
 
 
 
@@ -20,6 +21,7 @@ export default function Home() {
       <Intro/>
       <News/>
       <Service/>
+      <VContent/>
     
     </div>
   )
